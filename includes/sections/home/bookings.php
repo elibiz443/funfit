@@ -4,7 +4,7 @@
     <div class="flex flex-col md:flex-row items-center gap-6">
       <div class="flex-1">
         <h3 class="text-2xl font-bold">Ready to level up?</h3>
-        <p class="text-slate-600 mt-2">Choose a session, pick a coach, and book online. Gift vouchers available.</p>
+        <p class="text-slate-600 mt-2">Choose a session, and start training now.</p>
       </div>
 
       <form id="bookForm" class="w-full md:w-auto flex gap-2">

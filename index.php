@@ -30,10 +30,13 @@
   <main id="home">
     <?php include './includes/sections/home/hero.php'; ?>
     <?php include './includes/sections/home/programs.php'; ?>
+    <?php include './includes/sections/home/philosophy.php'; ?>
     <?php include './includes/sections/home/team.php'; ?>
     <?php include './includes/sections/home/community.php'; ?>
+    <?php include './includes/sections/home/events.php'; ?>
     <?php include './includes/sections/home/testimonials.php'; ?>
     <?php include './includes/sections/home/bookings.php'; ?>
+    <?php include './includes/sections/home/faqs.php'; ?>
     <?php include './includes/sections/home/contacts.php'; ?>
   </main>
 

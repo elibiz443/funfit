@@ -15,7 +15,7 @@
           Home
           <div class="h-0.5 w-2 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
-        <a href="#programs" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
+        <a href="#abouts" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
           About
           <div class="h-0.5 w-0 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
@@ -23,15 +23,15 @@
           Programs
           <div class="h-0.5 w-0 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
-        <a href="#programs" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
-          Trainers
+        <a href="#gallery" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
+          Gallery
           <div class="h-0.5 w-0 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
-        <a href="#programs" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
+        <a href="#book" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
           Book
           <div class="h-0.5 w-0 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
-        <a href="#programs" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
+        <a href="#contacts" class="group hover:text-[#b16e13] transition-all duration-500 ease-in-out">
           Contact
           <div class="h-0.5 w-0 mx-auto bg-[#b16e13] -mt-0.5 group-hover:w-full transition-all duration-500 ease-in-out"></div>
         </a>
