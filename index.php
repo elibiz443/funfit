@@ -19,7 +19,7 @@
   <link href="<?php echo ROOT_URL; ?>/assets/css/output.css" rel="stylesheet">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- FAV and Icons -->
   <link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL; ?>/assets/images/logo/favicon.webp" />
