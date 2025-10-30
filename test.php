@@ -168,7 +168,7 @@
         <h2 class="text-5xl font-extrabold text-white mb-16 font-serif">The F2 Functional Fitness Edge</h2>
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-translate-y-1 transition duration-300">
+          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-tranneutral-y-1 transition duration-300">
             <div class="text-f2-yellow text-6xl mb-4">🤸‍♂️</div>
             <h3 class="text-3xl font-bold text-white mb-3">Bodyweight & Explosive Power</h3>
             <p class="text-gray-300 text-lg">
@@ -176,7 +176,7 @@
             </p>
           </div>
 
-          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-translate-y-1 transition duration-300">
+          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-tranneutral-y-1 transition duration-300">
             <div class="text-f2-yellow text-6xl mb-4">💪</div>
             <h3 class="text-3xl font-bold text-white mb-3">Functional Tools Mastery</h3>
             <p class="text-gray-300 text-lg">
@@ -184,7 +184,7 @@
             </p>
           </div>
 
-          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-translate-y-1 transition duration-300">
+          <div class="p-8 bg-f2-black rounded-xl shadow-2xl border-b-4 border-f2-yellow transform hover:-tranneutral-y-1 transition duration-300">
             <div class="text-f2-yellow text-6xl mb-4">🔥</div>
             <h3 class="text-3xl font-bold text-white mb-3">Mindset & Motivation</h3>
             <p class="text-gray-300 text-lg">

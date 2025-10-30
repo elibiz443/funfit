@@ -1,41 +1,45 @@
-<!-- CONTACT / COMPANY SECTION -->
-<section id="contact" class="py-16 bg-white">
-  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
-    
-    <div>
-      <h4 class="text-xl font-bold text-[#b16e13]">About Us</h4>
-      <p class="text-slate-600 text-sm mt-3 leading-relaxed">
-        We are a performance-driven training company dedicated to helping individuals and teams unlock their full potential through science-based coaching, movement mastery, and long-term health strategies.
+<!-- CONTACT SECTION -->
+<section id="contact" 
+  class="relative py-24 bg-black text-white bg-cover bg-center"
+  style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/contact/contact.webp');">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <div class="relative max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+    <!-- CONTACT FORM -->
+    <div class="bg-black/60 p-8 rounded-2xl backdrop-blur-sm border border-gray-700 shadow-2xl">
+      <h4 class="text-2xl font-bold text-yellow-400 uppercase tracking-wide text-center">Get In Touch</h4>
+      <p class="text-gray-300 text-sm text-center mt-3 mb-6">
+        Have a question, partnership idea, or want to start your fitness journey?  
+        Send us a message — we’ll get back to you shortly.
       </p>
-      <p class="mt-4 text-sm text-slate-500">Building strength. Elevating performance. Inspiring change.</p>
-    </div>
 
-    <div>
-      <h4 class="text-xl font-bold text-[#b16e13]">Headquarters</h4>
-      <p class="text-sm text-slate-600 mt-3">Nairobi, Kenya</p>
-      <p class="text-sm text-slate-600 mt-1">Available for on-site training, collaborations, and workshops across East Africa.</p>
-      <div class="mt-4">
-        <div class="flex items-center gap-2 text-sm text-slate-500">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-4 h-4 text-[#b16e13]" fill="currentColor">
-            <path d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/>
-          </svg>
-          <span>info@funtwo.fit</span>
-        </div>
-        <div class="flex items-center gap-2 text-sm text-slate-500 mt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#b16e13]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5h18M9 3v2m6-2v2M4 9h16v11H4z" /></svg>
-          <span>Mon – Sat: 6:00 AM – 8:00 PM</span>
-        </div>
-      </div>
-    </div>
+      <form id="contactForm" class="space-y-5">
+        <input name="cname" type="text" placeholder="Your Name"
+          class="w-full px-4 py-3 rounded-full bg-transparent border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition" />
 
-    <div>
-      <h4 class="text-xl font-bold text-[#b16e13]">Contact Us</h4>
-      <form id="contactForm" class="mt-4 space-y-3">
-        <input name="cname" placeholder="Your Name" class="w-full px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-[#b16e13]/40" />
-        <input name="cemail" placeholder="Your Email" class="w-full px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-[#b16e13]/40" />
-        <textarea name="cmessage" rows="3" placeholder="Your Message" class="w-full px-4 py-2 rounded-2xl border focus:outline-none focus:ring-2 focus:ring-[#b16e13]/40"></textarea>
-        <button type="submit" class="w-full bg-[#b16e13] text-white py-2.5 rounded-full font-medium hover:bg-[#9a5f10] transition-all">Send Message</button>
+        <input name="cemail" type="email" placeholder="Your Email"
+          class="w-full px-4 py-3 rounded-full bg-transparent border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition" />
+
+        <textarea name="cmessage" rows="4" placeholder="Your Message"
+          class="w-full px-4 py-3 rounded-2xl bg-transparent border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"></textarea>
+
+        <button type="submit"
+          class="w-full bg-yellow-400 text-black py-3 rounded-full font-semibold hover:bg-yellow-300 transition-all">
+          Send Message
+        </button>
       </form>
+    </div>
+
+    <!-- MAP -->
+    <div class="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg border border-gray-700">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.859182276744!2d36.82194601532269!3d-1.2920650359880345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d4ab0f9a37%3A0x501f8f83aa4f5a0!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
 
   </div>

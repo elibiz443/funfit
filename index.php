@@ -24,7 +24,7 @@
   <!-- FAV and Icons -->
   <link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL; ?>/assets/images/logo/favicon.webp" />
 </head>
-<body class="antialiased bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-800 max-w-full overflow-x-hidden">
+<body class="antialiased bg-neutral-100 text-neutral-800 max-w-full overflow-x-hidden">
   <img src="<?php echo ROOT_URL; ?>/assets/images/hero/home.webp" alt="Functional Fitness training" class="absolute inset-0 w-full h-full object-cover object-center">
   <div class="absolute inset-0 bg-black/60"></div>
   <?php include './includes/header.php'; ?>
@@ -32,12 +32,13 @@
   <main id="home">
     <?php include './includes/sections/home/hero.php'; ?>
     <?php include './includes/sections/home/programs.php'; ?>
-    <?php include './includes/sections/home/philosophy.php'; ?>
+    <?php include './includes/sections/home/health.php'; ?>
     <?php include './includes/sections/home/team.php'; ?>
+    <?php include './includes/sections/home/philosophy.php'; ?>
     <?php include './includes/sections/home/community.php'; ?>
-    <?php include './includes/sections/home/events.php'; ?>
-    <?php include './includes/sections/home/testimonials.php'; ?>
     <?php include './includes/sections/home/bookings.php'; ?>
+    <?php include './includes/sections/home/membership.php'; ?>
+    <?php include './includes/sections/home/testimonials.php'; ?>
     <?php include './includes/sections/home/faqs.php'; ?>
     <?php include './includes/sections/home/contacts.php'; ?>
   </main>

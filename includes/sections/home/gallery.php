@@ -1,8 +1,8 @@
 <!-- GALLERY -->
-<section id="gallery" class="py-16 bg-gradient-to-b from-white to-slate-50">
+<section id="gallery" class="py-16 bg-gradient-to-b from-white to-neutral-50">
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-2xl font-bold mb-4">Moments That Move Us</h2>
-    <p class="text-slate-600 max-w-2xl mx-auto mb-10 text-sm">
+    <p class="text-neutral-600 max-w-2xl mx-auto mb-10 text-sm">
       Every session tells a story — of effort, teamwork, and growth. Here’s a glimpse into the energy and community that make our group trainings unforgettable.
     </p>
 

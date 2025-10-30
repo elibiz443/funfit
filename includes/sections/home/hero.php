@@ -32,7 +32,7 @@
     </div>
   </div>
 
-  <div class="absolute bottom-[10rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3">
+  <div class="absolute bottom-[10rem] left-1/2 transform -tranneutral-x-1/2 flex items-center justify-center gap-3">
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>
     <div class="h-2 w-2 bg-yellow-400 rounded-full"></div>
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>

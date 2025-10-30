@@ -1,23 +1,44 @@
-<!-- COMMUNITY / GALLERY -->
-<section class="py-12">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between mb-6">
-      <h3 class="text-xl font-bold">Community</h3>
-      <p class="text-sm text-slate-500">Real people. Real progress.</p>
-    </div>
+<!-- COMMUNITY & MEMBERSHIPS -->
+<section id="community" class="py-20 bg-white text-black">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <p class="uppercase tracking-wide text-sm text-neutral-500">Together We Grow</p>
+    <h2 class="text-3xl font-extrabold mt-2">Empowerment Through Community & Team Strength</h2>
+    <p class="text-neutral-600 max-w-2xl mx-auto mt-4">
+      At the heart of our mission lies unity, movement, and growth — where individuals train, connect, and thrive together.
+      Our vibrant community supports every member’s journey, from beginners to advanced athletes.
+    </p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="rounded-2xl overflow-hidden shadow">
-        <img src="<?php echo ROOT_URL; ?>/assets/images/community/community1.webp" alt="group class" class="w-full h-64 object-cover" />
+    <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="<?php echo ROOT_URL; ?>/assets/images/community/community1.webp" alt="Nutrition Coaching" class="w-full h-72 object-cover" />
+        <div class="p-6 bg-white">
+          <h4 class="font-semibold text-lg">Nutrition Coaching</h4>
+          <p class="text-sm text-neutral-600 mt-2">
+            Learn how to fuel your body for peak performance and recovery with balance and sustainability.
+          </p>
+          <button class="cursor-pointer mt-4 bg-black text-white px-4 py-2 rounded-full hover:bg-yellow-400 hover:text-black transition">Learn More</button>
+        </div>
       </div>
-      <div class="rounded-2xl overflow-hidden shadow">
-        <img src="<?php echo ROOT_URL; ?>/assets/images/community/community2.webp" alt="training" class="w-full h-64 object-cover" />
+
+      <div class="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="<?php echo ROOT_URL; ?>/assets/images/community/community2.webp" alt="Fitness Training" class="w-full h-72 object-cover" />
+        <div class="p-6 bg-white">
+          <h4 class="font-semibold text-lg">Fitness Training</h4>
+          <p class="text-sm text-neutral-600 mt-2">
+            Build strength and endurance with structured workouts guided by passionate, certified coaches.
+          </p>
+          <button class="cursor-pointer mt-4 bg-black text-white px-4 py-2 rounded-full hover:bg-yellow-400 hover:text-black transition">Learn More</button>
+        </div>
       </div>
-      <div class="rounded-2xl overflow-hidden shadow flex items-center justify-center bg-slate-50">
-        <div class="p-6 text-center">
-          <div class="font-semibold text-lg">Join the Squad</div>
-          <p class="text-sm text-slate-500 mt-2">Sign up for updates, free tips and member-only classes.</p>
-          <button id="joinBtn" class="mt-4 bg-[#b16e13] text-white px-4 py-2 rounded-full">Get Updates</button>
+
+      <div class="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="<?php echo ROOT_URL; ?>/assets/images/community/community3.webp" alt="Virtual Classes" class="w-full h-72 object-cover" />
+        <div class="p-6 bg-white">
+          <h4 class="font-semibold text-lg">Virtual Classes</h4>
+          <p class="text-sm text-neutral-600 mt-2">
+            Join live or on-demand classes from anywhere — stay consistent and connected wherever you are.
+          </p>
+          <button class="cursor-pointer mt-4 bg-black text-white px-4 py-2 rounded-full hover:bg-yellow-400 hover:text-black transition">Learn More</button>
         </div>
       </div>
     </div>

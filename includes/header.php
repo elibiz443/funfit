@@ -1,4 +1,4 @@
-<header class="relative z-[999] w-full glass-bg-color border-b border-slate-200">
+<header class="relative z-[999] w-full glass-bg-color border-b border-neutral-200">
   <div class="w-[94%] lg:w-[90%] mx-auto">
     <div id="wrapper" class="flex items-center justify-between h-16 transition-all duration-500 ease-in-out">
       <a id="logo" href="<?php echo ROOT_URL; ?>" class="text-white hover:scale-110 transition-transform duration-500 ease-in-out">
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div id="mobileMenu" class="fixed z-[9999] top-0 right-0 h-screen w-64 glass-bg-color2 border-l border-white/20 transform translate-x-full transition-transform duration-500 ease-in-out lg:hidden">
+  <div id="mobileMenu" class="fixed z-[9999] top-0 right-0 h-screen w-64 glass-bg-color2 border-l border-white/20 transform tranneutral-x-full transition-transform duration-500 ease-in-out lg:hidden">
     <button id="closeMenu" class="cursor-pointer absolute top-5 right-5 text-white hover:scale-110 hover:text-yellow-400 transition-all duration-500 ease-in-out">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
