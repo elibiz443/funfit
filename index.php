@@ -25,6 +25,8 @@
   <link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL; ?>/assets/images/logo/favicon.webp" />
 </head>
 <body class="antialiased bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-800 max-w-full overflow-x-hidden">
+  <img src="<?php echo ROOT_URL; ?>/assets/images/hero/home.webp" alt="Functional Fitness training" class="absolute inset-0 w-full h-full object-cover object-center">
+  <div class="absolute inset-0 bg-black/60"></div>
   <?php include './includes/header.php'; ?>
 
   <main id="home">
