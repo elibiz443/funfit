@@ -16,7 +16,7 @@
       </a>
     </div>
 
-    <div class="mt-12 flex flex-wrap items-center justify-center gap-8 text-gray-300 text-sm sm:text-base">
+    <div class="mt-12 hidden md:flex flex-wrap items-center justify-center gap-8 text-gray-300 text-sm sm:text-base">
       <div class="text-center">
         <div class="text-3xl font-bold text-yellow-400">10+</div>
         <div class="uppercase tracking-wide">Years Experience</div>
@@ -32,7 +32,7 @@
     </div>
   </div>
 
-  <div class="absolute bottom-[10rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3">
+  <div class="absolute bottom-[11rem] md:bottom-[10rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3">
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>
     <div class="h-2 w-2 bg-yellow-400 rounded-full"></div>
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>
