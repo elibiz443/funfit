@@ -20,15 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   function openSidebar() {
-    mobileMenu.classList.remove("tranneutral-x-full")
-    mobileMenu.classList.add("tranneutral-x-0")
+    mobileMenu.classList.remove("translate-x-full")
+    mobileMenu.classList.add("translate-x-0")
     sidebarBackdrop.classList.remove("hidden")
     document.body.classList.add("overflow-hidden")
   }
 
   function closeSidebar() {
-    mobileMenu.classList.remove("tranneutral-x-0")
-    mobileMenu.classList.add("tranneutral-x-full")
+    mobileMenu.classList.remove("translate-x-0")
+    mobileMenu.classList.add("translate-x-full")
     sidebarBackdrop.classList.add("hidden")
     document.body.classList.remove("overflow-hidden")
   }
