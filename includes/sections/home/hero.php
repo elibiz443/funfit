@@ -1,5 +1,11 @@
+<!-- ✅ HERO SECTION -->
 <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
-  <div class="relative text-center text-white px-4 z-10">
+  <!-- Hero Image and Overlay -->
+  <img src="<?php echo ROOT_URL; ?>/assets/images/hero/home.webp" alt="Functional Fitness training" class="absolute inset-0 w-full h-full object-cover object-center">
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 text-center text-white px-4 mt-[5rem] md:mt-[10rem]">
     <h1 class="text-4xl sm:text-6xl font-extrabold tracking-wide mb-4">
       Train Together. <span class="text-yellow-400">Grow Stronger.</span>
     </h1>
@@ -32,7 +38,8 @@
     </div>
   </div>
 
-  <div class="absolute bottom-[11rem] md:bottom-[10rem] left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3">
+  <!-- Indicator Dots -->
+  <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 z-10">
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>
     <div class="h-2 w-2 bg-yellow-400 rounded-full"></div>
     <div class="h-2 w-2 bg-white/60 rounded-full"></div>

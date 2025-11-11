@@ -1,4 +1,4 @@
-<header class="relative z-[999] w-full glass-bg-color border-b border-neutral-200">
+<header class="absolute top-0 left-0 z-[999] w-full glass-bg-color border-b border-neutral-200 transition-all duration-500 ease-in-out">
   <div class="w-[94%] lg:w-[90%] mx-auto">
     <div id="wrapper" class="flex items-center justify-between h-16 transition-all duration-500 ease-in-out">
       <a id="logo" href="<?php echo ROOT_URL; ?>" class="text-white hover:scale-110 transition-transform duration-500 ease-in-out">
@@ -43,7 +43,7 @@
     </div>
   </div>
 
-  <div id="socialMedia" class="border-t border-white/20 mt-2 transition-all duration-900 ease-in-out">
+  <div id="socialMedia" class="border-t border-white/20 mt-2 transition-all duration-700 ease-in-out">
     <div class="flex items-center justify-end gap-8 py-2 text-white mr-[4%] md:mr-[5%]">
       <a href="#" class="hover:scale-120 transition-all duration-500 ease-in-out">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="h-5 w-5">

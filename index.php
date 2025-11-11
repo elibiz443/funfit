@@ -24,9 +24,7 @@
   <!-- FAV and Icons -->
   <link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL; ?>/assets/images/logo/favicon.webp" />
 </head>
-<body class="antialiased bg-neutral-100 text-neutral-800 max-w-full overflow-x-hidden">
-  <img src="<?php echo ROOT_URL; ?>/assets/images/hero/home.webp" alt="Functional Fitness training" class="absolute inset-0 w-full h-full object-cover object-center">
-  <div class="absolute inset-0 bg-black/60"></div>
+<body class="antialiased bg-neutral-950 text-neutral-200 max-w-full overflow-x-hidden">
   <?php include './includes/header.php'; ?>
 
   <main id="home">

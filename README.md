@@ -40,13 +40,13 @@ npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch
 ```
 
 Go To App in development:
--Go To: http://localhost/riverbarn/index.php
+-Go To: http://localhost/funfit/
 
 Deployment:
 
 Minify CSS:
 ```
-npx tailwindcss -i ./css/input.css -o ./css/output.css --minify
+npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify
 ```
 
 ## Uploading files:

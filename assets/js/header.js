@@ -1,40 +1,51 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.querySelector("header")
-  const socials = document.querySelector("#socialMedia")
-  const wrapper = document.getElementById("wrapper")
-  const closeMenu = document.getElementById("closeMenu")
-  const mobileMenu = document.getElementById("mobileMenu")
-  const sidebarBackdrop = document.getElementById("sidebar-backdrop")
-  const sidebarLinks = mobileMenu.querySelectorAll("a, button")
+  const header = document.querySelector("header");
+  const socials = document.querySelector("#socialMedia");
+  const wrapper = document.getElementById("wrapper");
+  const menuToggle = document.getElementById("menuToggle");
+  const closeMenu = document.getElementById("closeMenu");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+  const sidebarLinks = mobileMenu.querySelectorAll("a, button");
 
+  // ✅ Smooth sticky transition behavior
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 80) {
-      wrapper.classList.replace("h-16", "h-12")
-      header.classList.add("sticky", "top-0", "shadow-md", "shadow-gray-900/50")
-      socials.classList.add("hidden")
-    } else {
-      wrapper.classList.replace("h-12", "h-16")
-      header.classList.remove("sticky", "top-0", "shadow-md", "shadow-gray-900/50")
-      socials.classList.remove("hidden")
-    }
-  })
+    const scrollY = window.scrollY;
+    const scrolledPastHero = scrollY > window.innerHeight * 0.75;
 
+    if (scrollY > 80) {
+      wrapper.classList.replace("h-16", "h-12");
+      header.classList.add("backdrop-blur-md", "bg-black/60", "shadow-lg", "shadow-black/40", "fixed", "top-0", "left-0");
+      socials.classList.add("hidden");
+    } else {
+      wrapper.classList.replace("h-12", "h-16");
+      header.classList.remove("fixed", "shadow-lg", "shadow-black/40");
+      socials.classList.remove("hidden");
+
+      // when at top, restore transparency
+      if (!scrolledPastHero) {
+        header.classList.remove("bg-black/60", "backdrop-blur-md");
+      }
+    }
+  });
+
+  // ✅ Mobile Sidebar Logic
   function openSidebar() {
-    mobileMenu.classList.remove("translate-x-full")
-    mobileMenu.classList.add("translate-x-0")
-    sidebarBackdrop.classList.remove("hidden")
-    document.body.classList.add("overflow-hidden")
+    mobileMenu.classList.remove("translate-x-full");
+    mobileMenu.classList.add("translate-x-0");
+    sidebarBackdrop.classList.remove("hidden");
+    document.body.classList.add("overflow-hidden");
   }
 
   function closeSidebar() {
-    mobileMenu.classList.remove("translate-x-0")
-    mobileMenu.classList.add("translate-x-full")
-    sidebarBackdrop.classList.add("hidden")
-    document.body.classList.remove("overflow-hidden")
+    mobileMenu.classList.remove("translate-x-0");
+    mobileMenu.classList.add("translate-x-full");
+    sidebarBackdrop.classList.add("hidden");
+    document.body.classList.remove("overflow-hidden");
   }
 
-  menuToggle.addEventListener("click", openSidebar)
-  closeMenu.addEventListener("click", closeSidebar)
-  sidebarBackdrop.addEventListener("click", closeSidebar)
-  sidebarLinks.forEach(link => link.addEventListener("click", closeSidebar))
-})
+  menuToggle.addEventListener("click", openSidebar);
+  closeMenu.addEventListener("click", closeSidebar);
+  sidebarBackdrop.addEventListener("click", closeSidebar);
+  sidebarLinks.forEach(link => link.addEventListener("click", closeSidebar));
+});
