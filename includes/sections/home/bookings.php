@@ -20,7 +20,7 @@
         class="px-6 py-3 w-full sm:w-56 rounded-full focus:outline-none text-white border border-white/60 shadow-inner placeholder-gray-300" />
       <input type="email" name="email" required placeholder="Email Address"
         class="px-6 py-3 w-full sm:w-64 rounded-full focus:outline-none text-white border border-white/60 shadow-inner placeholder-gray-300" />
-      <button type="submit" class="cursor-pointer bg-yellow-600 text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-yellow-600 transition-all duration-500 ease-in-out shadow-lg">
+      <button type="submit" class="cursor-pointer bg-[#daaa4a] text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-[#daaa4a] transition-all duration-500 ease-in-out shadow-lg shadow-stone-800">
         Book Now
       </button>
     </form>

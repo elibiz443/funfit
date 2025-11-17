@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector("header");
   const socials = document.querySelector("#socialMedia");
   const wrapper = document.getElementById("wrapper");
+  const logo = document.getElementById("logo");
   const menuToggle = document.getElementById("menuToggle");
   const closeMenu = document.getElementById("closeMenu");
   const mobileMenu = document.getElementById("mobileMenu");
@@ -15,10 +16,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (scrollY > 80) {
       wrapper.classList.replace("h-16", "h-12");
+      logo.classList.add("scale-75", "hover:scale-80");
+      logo.classList.remove("hover:scale-105");
       header.classList.add("backdrop-blur-md", "bg-black/60", "shadow-lg", "shadow-black/40", "fixed", "top-0", "left-0");
+      header.classList.remove("bg-gradient-to-r", "from-[#1c1c1c]", "via-[#1c1c1c]/70", "to-[#1c1c1c]/50");
       socials.classList.add("hidden");
     } else {
       wrapper.classList.replace("h-12", "h-16");
+      logo.classList.add("hover:scale-105");
+      logo.classList.remove("scale-75", "hover:scale-80");
+      header.classList.add("bg-gradient-to-r", "from-[#1c1c1c]", "via-[#1c1c1c]/70", "to-[#1c1c1c]/50");
       header.classList.remove("fixed", "shadow-lg", "shadow-black/40");
       socials.classList.remove("hidden");
 

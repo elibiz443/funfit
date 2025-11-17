@@ -17,11 +17,9 @@ This is a website that includes:
 
 ## Colors
 
-* Navy Blue → ```#001F3F```
-* Gold → ```#FFD700```
-* Black → ```#000000```
-* White → ```#FFFFFF```
-* Blue (Tertiary) → ```#4682B4``` (Steel Blue) or ```#0074D9``` (Bright Tertiary Blue)
+* Dark → ```#1c1917```
+* Yellow → ```#fdc700```
+* Light → ```#eff2f1```
 
 Setting up DB:
 - Go To: http://localhost/phpmyadmin

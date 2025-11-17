@@ -24,7 +24,7 @@
   <!-- FAV and Icons -->
   <link rel="icon" type="image/x-icon" href="<?php echo ROOT_URL; ?>/assets/images/logo/favicon.webp" />
 </head>
-<body class="antialiased bg-neutral-700 text-neutral-200 max-w-full overflow-x-hidden">
+<body class="antialiased bg-neutral-200 text-[#1c1c1c] max-w-full overflow-x-hidden">
   <?php include './includes/header.php'; ?>
 
   <main id="home">
