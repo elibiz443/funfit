@@ -4,7 +4,11 @@
 
     <!-- BRAND -->
     <div>
-      <h3 class="text-2xl font-bold tracking-wide text-[#daaa4a]">Functional Fitness</h3>
+      <div class="w-fit ml-2 hover:scale-105 transition-all duration-700 ease-in-out">
+        <a href="<?php echo ROOT_URL; ?>">
+          <img src="<?php echo ROOT_URL; ?>/assets/images/logo/logo2.webp" class="h-16 w-auto">
+        </a>
+      </div>
       <p class="text-sm text-gray-400 mt-3 leading-relaxed">
         Building stronger minds and bodies through community, discipline, and purpose-driven movement.
       </p>
@@ -81,6 +85,10 @@
   </div>
 
   <div class="border-t border-gray-800 mt-12 pt-6 text-center text-xs text-gray-500">
-    © <?php echo date('Y'); ?> <span class="text-[#f3d477] font-semibold">Functional Fitness</span> — All rights reserved.
+    © <?php echo date('Y'); ?> <span class="text-[#f3d477] font-semibold">Functional Fitness</span> — All rights reserved. Powered By 
+    <a href="https://ezktech.com/" target="_blank" class="group relative text-cyan-400 hover:text-red-400 transition-all duration-300 ease-in-out">
+      &nbsp;E37 Technologies.
+      <div class="absolute -bottom-1 left-1 h-[0.2rem] w-0 group-hover:w-[92%] bg-red-400 transition-all duration-500 ease-in-out"></div>
+    </a>
   </div>
 </footer>

@@ -16,15 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (scrollY > 80) {
       wrapper.classList.replace("h-16", "h-12");
-      logo.classList.add("scale-75", "hover:scale-80");
-      logo.classList.remove("hover:scale-105");
+      logo.classList.add("scale-75", "hover:scale-80", "border-white");
+      logo.classList.remove("hover:scale-105", "border-white/20");
       header.classList.add("backdrop-blur-md", "bg-black/60", "shadow-lg", "shadow-black/40", "fixed", "top-0", "left-0");
       header.classList.remove("bg-gradient-to-r", "from-[#1c1c1c]", "via-[#1c1c1c]/70", "to-[#1c1c1c]/50");
       socials.classList.add("hidden");
     } else {
       wrapper.classList.replace("h-12", "h-16");
-      logo.classList.add("hover:scale-105");
-      logo.classList.remove("scale-75", "hover:scale-80");
+      logo.classList.add("hover:scale-105", "border-white/20");
+      logo.classList.remove("scale-75", "hover:scale-80", "border-white");
       header.classList.add("bg-gradient-to-r", "from-[#1c1c1c]", "via-[#1c1c1c]/70", "to-[#1c1c1c]/50");
       header.classList.remove("fixed", "shadow-lg", "shadow-black/40");
       socials.classList.remove("hidden");

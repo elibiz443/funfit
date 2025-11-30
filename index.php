@@ -47,5 +47,6 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/header.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-view.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/carousel"></script>
 </body>
 </html>
