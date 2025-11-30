@@ -5,13 +5,13 @@
     $dbname = 'funfit_db';
     $username = 'root';
     $password = '';
-    define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'] . '/bibleville-web');
+    define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'] . '/funfit');
   } else {
-    define('ROOT_URL', 'https://f2.riverbarncafe.com/');
+    define('ROOT_URL', 'https://functionalfitness.co.ke/');
     $host = 'localhost';
-    $dbname = 'riverba1_funfit';
-    $username = 'riverba1_funfit';
-    $password = 'mKVteKFkzjHxrUxMZEU3';
+    $dbname = 'function_maindb';
+    $username = 'function_maindb';
+    $password = 'xZgAcsAtGtupwSQwQekx';
     define('ROOT_PATH', dirname(__FILE__));
   }
 
