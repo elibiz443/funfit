@@ -12,7 +12,6 @@
         <div class="p-6 bg-stone-800">
           <h4 class="font-semibold text-lg text-white">Nutrition Coaching</h4>
           <p class="text-sm text-neutral-200 mt-2">Learn how to fuel your body for peak performance and recovery with balance and sustainability.</p>
-          <button class="cursor-pointer mt-4 bg-[#f3d477] text-[#1c1c1c] px-4 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Learn More</button>
         </div>
       </div>
 
@@ -21,7 +20,6 @@
         <div class="p-6 bg-stone-800">
           <h4 class="font-semibold text-lg text-white">Fitness Training</h4>
           <p class="text-sm text-neutral-200 mt-2">Build strength and endurance with structured workouts guided by passionate, certified coaches.</p>
-          <button class="cursor-pointer mt-4 bg-[#f3d477] text-[#1c1c1c] px-4 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Learn More</button>
         </div>
       </div>
 
@@ -30,7 +28,6 @@
         <div class="p-6 bg-stone-800">
           <h4 class="font-semibold text-lg text-white">Virtual Classes</h4>
           <p class="text-sm text-neutral-200 mt-2">Join live or on-demand classes from anywhere — stay consistent and connected wherever you are.</p>
-          <button class="cursor-pointer mt-4 bg-[#f3d477] text-[#1c1c1c] px-4 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Learn More</button>
         </div>
       </div>
     </div>

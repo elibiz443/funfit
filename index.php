@@ -34,7 +34,7 @@
     <?php include './includes/sections/home/team.php'; ?>
     <?php include './includes/sections/home/philosophy.php'; ?>
     <?php include './includes/sections/home/community.php'; ?>
-    <?php include './includes/sections/home/bookings.php'; ?>
+    <?php include './includes/sections/home/advert.php'; ?>
     <?php include './includes/sections/home/membership.php'; ?>
     <?php include './includes/sections/home/testimonials.php'; ?>
     <?php include './includes/sections/home/faqs.php'; ?>

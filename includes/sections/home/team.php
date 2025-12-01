@@ -12,25 +12,16 @@
         <div class="bg-stone-800 rounded-2xl shadow-lg shadow-stone-600 p-6 border border-[#f3d477]">
           <h3 class="font-semibold text-lg text-slate-100 mb-2">Our Training Philosophy</h3>
           <p class="text-slate-300 text-sm leading-relaxed">We grow stronger together. Our training approach blends discipline, teamwork, and shared energy — creating an uplifting atmosphere where everyone inspires one another. Each workout builds not just strength, but trust and unity within the team.</p>
-          <div class="mt-4">
-            <a href="#" class="inline-flex items-center gap-2 text-[#f3d477] font-medium text-sm px-4 py-2 rounded-full ring-1 ring-[#f3d477] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">Learn More</a>
-          </div>
         </div>
 
         <div class="bg-stone-800 rounded-2xl shadow-lg shadow-stone-600 p-6 border border-[#f3d477]">
           <h3 class="font-semibold text-lg text-slate-100 mb-2">Facilities & Community</h3>
           <p class="text-slate-300 text-sm leading-relaxed">Our facilities and community zones encourage connection and collaboration. Whether it’s team circuits, recovery lounges, or group challenges — every corner is designed to motivate and unite.</p>
-          <div class="mt-4">
-            <a href="#" class="inline-flex items-center gap-2 text-[#f3d477] font-medium text-sm px-4 py-2 rounded-full ring-1 ring-[#f3d477] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">View Spaces</a>
-          </div>
         </div>
 
         <div class="bg-stone-800 rounded-2xl shadow-lg shadow-stone-600 p-6 border border-[#f3d477]">
           <h3 class="font-semibold text-lg text-slate-100 mb-2">Team Leadership</h3>
           <p class="text-slate-300 text-sm leading-relaxed">Led by passionate professionals like <span class="text-[#f3d477] font-semibold">Coach Frank</span>, our trainers guide every member with care and motivation. Together, we nurture confidence, build resilience, and celebrate every success — big or small.</p>
-          <div class="mt-4">
-            <a href="#" class="inline-flex items-center gap-2 text-[#f3d477] font-medium text-sm px-4 py-2 rounded-full ring-1 ring-[#f3d477] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">Meet the Team</a>
-          </div>
         </div>
       </div>
 
