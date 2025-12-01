@@ -1,6 +1,7 @@
 <!-- OUR PHILOSOPHY -->
-<section id="philosophy" class="py-20 bg-gradient-to-br from-[#1c1c1c]/80 via-[#1c1c1c]/90 to-[#1c1c1c] text-white">
-  <div class="max-w-5xl mx-auto px-6 text-center">
+<section id="philosophy" class="relative py-20 bg-gradient-to-br from-[#1c1c1c]/80 via-[#1c1c1c]/90 to-[#1c1c1c] text-white">
+  <div class="absolute inset-0 bg-cover" style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/patterns/texture1.webp')"></div>
+  <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
     <h2 class="text-2xl font-bold mb-6 text-[#daaa4a]">Our Philosophy</h2>
     <p class="text-neutral-200 max-w-3xl mx-auto leading-relaxed">
       We believe movement is more than exercise — it’s connection, discipline, and growth.  

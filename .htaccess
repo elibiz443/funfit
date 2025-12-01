@@ -1,7 +1,6 @@
 RewriteEngine On
-
-# Rewrite base to your project folder if it's not the root
 RewriteBase /funfit/
 
-# Remove .php extension for pages
+# --- Remove .php extension ---
 RewriteRule ^gallery$ pages/gallery.php [L]
+RewriteRule ^abouts$ pages/abouts.php [L]

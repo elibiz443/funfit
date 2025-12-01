@@ -1,5 +1,5 @@
 <!-- CONTACT SECTION -->
-<section id="contact" 
+<section id="contacts" 
   class="relative py-24 bg-black text-white bg-cover bg-center"
   style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/contact/contact.webp');">
 

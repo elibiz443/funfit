@@ -1,14 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const scrollMap = {
-    aboutsButton: "abouts",
-    galleryButton: "gallery",
-    servicesButton: "services",
+    programsButton: "programs",
     contactsButton: "contacts",
-
-    aboutsButton2: "abouts",
-    galleryButton2: "gallery",
-    servicesButton2: "services",
-    contactsButton2: "contacts",
   };
 
   Object.entries(scrollMap).forEach(([btnId, targetId]) => {

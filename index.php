@@ -41,6 +41,7 @@
     <?php include './includes/sections/home/contacts.php'; ?>
   </main>
 
+  <?php include './includes/booking_modal.php'; ?>
   <?php include './includes/footer.php'; ?>
   <?php include './includes/roll-to-top-button.php'; ?>
 
@@ -48,5 +49,6 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-view.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/carousel.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
 </body>
 </html>

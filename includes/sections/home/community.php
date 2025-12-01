@@ -1,6 +1,7 @@
 <!-- COMMUNITY & MEMBERSHIPS -->
-<section id="community" class="py-20 bg-gradient-to-br from-stone-300/90 via-[#f3d477]/80 to-[#f3d477]">
-  <div class="max-w-6xl mx-auto px-6 text-center">
+<section id="community" class="relative py-20 bg-gradient-to-br from-stone-300/90 via-[#f3d477]/80 to-[#f3d477]">
+  <div class="absolute inset-0 bg-cover" style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/patterns/texture3.webp')"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
     <p class="uppercase tracking-wide text-sm text-[#1c1c1c]/80">Together We Grow</p>
     <h2 class="text-3xl font-extrabold mt-2 text-[#1c1c1c]">Empowerment Through Community & Team Strength</h2>
     <p class="text-[#1c1c1c]/60 max-w-2xl mx-auto mt-4">At the heart of our mission lies unity, movement, and growth — where individuals train, connect, and thrive together.</p>

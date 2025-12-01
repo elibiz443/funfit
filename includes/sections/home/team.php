@@ -1,6 +1,7 @@
 <!-- TEAM / ORGANIZATION -->
-<section id="trainers" class="py-16 bg-gradient-to-bl from-neutral-400/90 via-[#f3d477]/40 to-[#daaa4a]/70">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="trainers" class="relative py-16 bg-gradient-to-bl from-neutral-400/90 via-[#f3d477]/40 to-[#daaa4a]/70">
+  <div class="absolute inset-0 bg-cover" style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/patterns/texture3.webp')"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col sm:flex-row items-center justify-between mb-12 text-center sm:text-left">
       <h2 class="text-3xl font-extrabold">Meet the Functional Fitness Team</h2>
       <p class="text-sm text-[#1c1c1c]/90 mt-2 sm:mt-0 uppercase tracking-wide">Leadership · Unity · Growth</p>

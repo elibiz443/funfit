@@ -1,6 +1,7 @@
 <!-- MEMBERSHIP SECTION -->
-<section id="memberships" class="py-20 bg-gradient-to-bl from-neutral-400/90 via-[#f3d477]/40 to-[#daaa4a]/70">
-  <div class="max-w-6xl mx-auto px-6 text-center">
+<section id="memberships" class="relative py-20 bg-gradient-to-bl from-neutral-400/90 via-[#f3d477]/40 to-[#daaa4a]/70">
+  <div class="absolute inset-0 bg-cover" style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/patterns/texture3.webp')"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
     <p class="uppercase tracking-wide text-sm text-[#1c1c1c]/80">Choose Your Journey</p>
     <h2 class="text-3xl font-extrabold mt-2">Memberships Built for Every Lifestyle</h2>
     <p class="text-[#1c1c1c]/70 max-w-2xl mx-auto mt-4">Select the plan that fits your schedule and goals — from full community access to flexible drop-in options.</p>
