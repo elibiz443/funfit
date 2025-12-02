@@ -17,8 +17,8 @@
         </p>
         <div class="mt-5 flex items-center">
           <span class="text-[#f3d477] font-medium">Join the Movement</span>
-          <button class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
-            Learn more
+          <button onclick="location.href='<?php echo ROOT_URL; ?>/programs'" class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
+            View More
           </button>
         </div>
       </article>
@@ -30,8 +30,8 @@
         </p>
         <div class="mt-5 flex items-center">
           <span class="text-[#f3d477] font-medium">Feel the Energy</span>
-          <button class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
-            Learn more
+          <button onclick="location.href='<?php echo ROOT_URL; ?>/programs'" class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
+            View More
           </button>
         </div>
       </article>
@@ -43,8 +43,8 @@
         </p>
         <div class="mt-5 flex items-center">
           <span class="text-[#f3d477] font-medium">Be Part of the Team</span>
-          <button class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
-            Reserve spot
+          <button onclick="location.href='<?php echo ROOT_URL; ?>/programs'" class="cursor-pointer ml-auto text-sm px-3 py-1 rounded-full ring-1 ring-[#f3d477] text-[#daaa4a] hover:bg-[#daaa4a] hover:text-[#1c1c1c] transition-all duration-500 ease-in-out">
+            View More
           </button>
         </div>
       </article>

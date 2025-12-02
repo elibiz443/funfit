@@ -4,3 +4,4 @@ RewriteBase /funfit/
 # --- Remove .php extension ---
 RewriteRule ^gallery$ pages/gallery.php [L]
 RewriteRule ^abouts$ pages/abouts.php [L]
+RewriteRule ^programs$ pages/programs.php [L]

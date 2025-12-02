@@ -13,7 +13,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Functional Fitness</title>
-  <meta name="description" content="Coach Frank — Professional football & rugby background. Calisthenics, plyometrics, kettlebell training and quality programs." />
+  <meta name="description" content="Functional Fitness is a movement-first company dedicated to building resilient teams and thriving communities through purpose-built group training." />
 
   <!-- CSS -->
   <link href="<?php echo ROOT_URL; ?>/assets/css/output.css" rel="stylesheet">

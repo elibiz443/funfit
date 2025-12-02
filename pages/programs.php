@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Functional Fitness - About Us</title>
+  <title>Functional Fitness - Our programs</title>
   <meta name="description" content="Functional Fitness is a movement-first company dedicated to building resilient teams and thriving communities through purpose-built group training." />
   <link href="<?php echo ROOT_URL; ?>/assets/css/output.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
   <?php include '../includes/header2.php'; ?>
 
   <main id="home">
-    <?php include '../includes/sections/abouts/hero.php'; ?>
-    <?php include '../includes/sections/abouts/body.php'; ?>
+    <?php include '../includes/sections/programs/hero.php'; ?>
+    <?php include '../includes/sections/programs/body.php'; ?>
   </main>
 
   <?php include '../includes/booking_modal.php'; ?>
