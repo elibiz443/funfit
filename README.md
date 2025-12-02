@@ -25,7 +25,7 @@ Setting up DB:
 - Go To: http://localhost/phpmyadmin
 - DB Name(eg: funfit_db)
 - seed db: http://localhost/funfit/db/db-setup.php
-- For production: https://funtwo.fit/db/db-setup.php
+- For production: https://functionalfitness.co.ke/db/db-setup.php
 
 Adding mail to booking:
 ```

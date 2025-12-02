@@ -3,6 +3,7 @@
   ini_set('display_startup_errors', 1);
   error_reporting(E_ALL);
   require __DIR__ . '/../config.php';
+  require __DIR__ . '/../admin/scripts/gallery/index.php';
 ?>
 
 <!doctype html>
@@ -31,5 +32,6 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/header.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/gallery.js"></script>
 </body>
 </html>
