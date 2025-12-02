@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="mt-6 flex items-center justify-end">
-          <a href="<?php echo ROOT_URL; ?>/past_events" class="font-['Bebas_Neue'] text-lg text-white hover:text-[#c6a56a] transition">View Highlights</a>
+          <a href="<?php echo ROOT_URL; ?>/events" class="font-['Bebas_Neue'] text-lg text-white hover:text-[#c6a56a] transition">View Highlights</a>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="mt-6 flex items-center justify-end">
-          <a href="<?php echo ROOT_URL; ?>/upcoming_events" class="font-['Bebas_Neue'] text-lg text-white hover:text-[#c6a56a] transition">Save Your Spot</a>
+          <a href="<?php echo ROOT_URL; ?>/events" class="font-['Bebas_Neue'] text-lg text-white hover:text-[#c6a56a] transition">Save Your Spot</a>
         </div>
       </div>
     </div>

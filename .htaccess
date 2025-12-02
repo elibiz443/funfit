@@ -5,3 +5,4 @@ RewriteBase /funfit/
 RewriteRule ^gallery$ pages/gallery.php [L]
 RewriteRule ^abouts$ pages/abouts.php [L]
 RewriteRule ^programs$ pages/programs.php [L]
+RewriteRule ^events$ pages/events.php [L]

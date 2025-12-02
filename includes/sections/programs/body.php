@@ -21,15 +21,27 @@
       </div>
     </div>
 
-    <div class="mt-8 bg-gradient-to-br from-[#f3d477]/10 to-[#1c1c1c]/40 p-6 rounded-2xl shadow-lg shadow-[#1c1c1c]">
-      <h4 class="font-['Bebas_Neue'] text-2xl text-[#1c1c1c]">Sample 60-minute Bootcamp</h4>
-      <ol class="font-['Roboto'] text-sm mt-3 space-y-2 list-inside list-decimal">
-        <li>10 min mobility & dynamic warm-up</li>
-        <li>20 min skill & strength block (partnered stations)</li>
-        <li>20 min team circuits — rotating challenges with team scoring</li>
-        <li>8 min metabolic finisher</li>
-        <li>2 min cool-down and group reflection</li>
-      </ol>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <article class="p-6 bg-stone-800/90 rounded-2xl border-2 border-[#f3d477] shadow-xl shadow-stone-800 hover:-translate-y-2 transition-all duration-700 ease-in-out">
+        <h3 class="font-semibold text-lg text-[#daaa4a]">Functional Group Training</h3>
+        <p class="mt-3 text-[#eff2f1] text-sm">
+          Build strength and confidence through supportive, team-based workouts. Push together, grow together — discover how collaboration turns fitness into a lifestyle.
+        </p>
+      </article>
+
+      <article class="p-6 bg-stone-800/90 rounded-2xl border-2 border-[#f3d477] shadow-xl shadow-stone-800 hover:-translate-y-2 transition-all duration-700 ease-in-out">
+        <h3 class="font-semibold text-lg text-[#daaa4a]">HIIT & Total Conditioning</h3>
+        <p class="mt-3 text-[#eff2f1] text-sm">
+          Ignite your endurance with high-intensity group circuits. These sessions build stamina, strengthen team spirit, and keep motivation soaring from start to finish.
+        </p>
+      </article>
+
+      <article class="p-6 bg-stone-800/90 rounded-2xl border-2 border-[#f3d477] shadow-xl shadow-stone-800 hover:-translate-y-2 transition-all duration-700 ease-in-out">
+        <h3 class="font-semibold text-lg text-[#daaa4a]">Spin & Sweat Sessions</h3>
+        <p class="mt-3 text-[#eff2f1] text-sm">
+          Ride with rhythm and unity. Our cycling sessions combine music, movement, and motivation — proving that fitness feels better when done as a team.
+        </p>
+      </article>
     </div>
   </div>
 </section>
