@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Functional Fitness - Our Events</title>
+  <title>Functional Fitness - Contact Us</title>
   <meta name="description" content="Functional Fitness is a movement-first company dedicated to building resilient teams and thriving communities through purpose-built group training." />
   <link href="<?php echo ROOT_URL; ?>/assets/css/output.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
   <?php include '../includes/header2.php'; ?>
 
   <main id="home">
-    <?php include '../includes/sections/events/hero.php'; ?>
-    <?php include '../includes/sections/events/body.php'; ?>
+    <?php include '../includes/sections/contacts/hero.php'; ?>
+    <?php include '../includes/sections/contacts/body.php'; ?>
   </main>
 
   <?php include '../includes/booking_modal.php'; ?>
@@ -31,6 +31,5 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/header.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
-  <script src="<?php echo ROOT_URL; ?>/assets/js/events.js"></script>
 </body>
 </html>

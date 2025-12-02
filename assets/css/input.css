@@ -22,3 +22,11 @@ a { text-decoration: none; }
   backdrop-filter: blur(20px);
   background-color: rgba(98, 101, 103, 0.9);
 }
+
+.fade-panel {
+  animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}

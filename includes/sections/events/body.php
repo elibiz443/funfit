@@ -43,12 +43,10 @@
     </div>
 
     <div class="flex justify-center items-center gap-6 border-b border-stone-700 pb-4 mb-8">
-      <button id="tabUpcoming"
-        class="tab-btn font-['Bebas_Neue'] text-xl text-[#f3d477] border-b-2 border-[#f3d477] pb-2 transition-all">
+      <button id="tabUpcoming" class="cursor-pointer tab-btn font-['Bebas_Neue'] text-xl text-[#f3d477] border-b-2 border-[#f3d477] pb-2 transition-all">
         Upcoming Events
       </button>
-      <button id="tabPast"
-        class="tab-btn font-['Bebas_Neue'] text-xl text-stone-400 hover:text-stone-200 pb-2 transition-all">
+      <button id="tabPast" class="cursor-pointer tab-btn font-['Bebas_Neue'] text-xl text-stone-400 hover:text-stone-200 pb-2 transition-all">
         Past Events
       </button>
     </div>
@@ -110,41 +108,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .fade-panel {
-    animation: fadeIn 0.6s ease-in-out;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(6px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-</style>
-
-<script>
-  const upcomingTab = document.getElementById('tabUpcoming');
-  const pastTab = document.getElementById('tabPast');
-  const upcomingPanel = document.getElementById('upcomingPanel');
-  const pastPanel = document.getElementById('pastPanel');
-
-  function switchTab(active) {
-    if (active === 'upcoming') {
-      upcomingPanel.classList.remove('hidden');
-      pastPanel.classList.add('hidden');
-      upcomingTab.classList.add('text-[#f3d477]', 'border-[#f3d477]');
-      upcomingTab.classList.remove('text-stone-400');
-      pastTab.classList.add('text-stone-400');
-      pastTab.classList.remove('text-[#f3d477]', 'border-[#f3d477]');
-    } else {
-      pastPanel.classList.remove('hidden');
-      upcomingPanel.classList.add('hidden');
-      pastTab.classList.add('text-[#f3d477]', 'border-[#f3d477]');
-      pastTab.classList.remove('text-stone-400');
-      upcomingTab.classList.add('text-stone-400');
-      upcomingTab.classList.remove('text-[#f3d477]', 'border-[#f3d477]');
-    }
-  }
-
-  upcomingTab.addEventListener('click', () => switchTab('upcoming'));
-  pastTab.addEventListener('click', () => switchTab('past'));
-</script>
