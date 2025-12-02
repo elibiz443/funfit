@@ -1,5 +1,5 @@
 <!-- TESTIMONIALS -->
-<section id="testimonials" class="relative py-20 bg-gradient-to-br from-[#1c1c1c]/80 via-[#1c1c1c]/90 to-[#1c1c1c] text-white relative overflow-hidden">
+<section id="testimonials" class="relative py-20 bg-gradient-to-br from-[#1c1c1c]/80 via-[#1c1c1c]/90 to-[#1c1c1c] text-white overflow-hidden">
   <div class="absolute inset-0 bg-cover" style="background-image: url('<?php echo ROOT_URL; ?>/assets/images/patterns/texture2.webp')"></div>
 
   <div class="max-w-6xl mx-auto px-6 relative z-10 text-center">

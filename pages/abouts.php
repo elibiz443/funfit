@@ -24,10 +24,12 @@
     <?php include '../includes/sections/abouts/body.php'; ?>
   </main>
 
+  <?php include '../includes/booking_modal.php'; ?>
   <?php include '../includes/footer.php'; ?>
   <?php include '../includes/roll-to-top-button.php'; ?>
 
   <script src="<?php echo ROOT_URL; ?>/assets/js/header.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
 </body>
 </html>
