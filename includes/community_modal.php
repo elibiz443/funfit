@@ -1,11 +1,11 @@
-<div id="bookingModal" class="fixed z-[999] inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center opacity-0 pointer-events-none transition-all duration-700 ease-in-out">
-  <div class="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden transform scale-95 transition-all duration-700 ease-in-out" id="bookingBox">
+<div id="communityModal" class="fixed z-[999] inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center opacity-0 pointer-events-none transition-all duration-700 ease-in-out">
+  <div class="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden transform scale-95 transition-all duration-700 ease-in-out" id="communityBox">
     <div class="bg-[#1c1c1c] px-6 py-4 flex justify-between items-center">
-      <h3 class="font-['Bebas_Neue'] text-3xl text-[#c6a56a] tracking-wide">Booking</h3>
-      <button id="closeBooking" class="cursor-pointer text-neutral-200 text-3xl hover:text-yellow-500 transition-all duration-500 ease-in-out">&times;</button>
+      <h3 class="font-['Bebas_Neue'] text-3xl text-[#c6a56a] tracking-wide">Join Community</h3>
+      <button id="closeCommunity" class="cursor-pointer text-neutral-200 text-3xl hover:text-yellow-500 transition-all duration-500 ease-in-out">&times;</button>
     </div>
     <div class="p-6 space-y-5 font-['Roboto']">
-      <div class="grid grid-cols-3 gap-2">
+      <div class="grid grid-cols-2 gap-2">
         <div>
           <label class="block text-sm font-bold mb-1">Company / Group Name</label>
           <input type="text" class="w-full border border-neutral-400 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#c6a56a]">
@@ -13,14 +13,6 @@
         <div>
           <label class="block text-sm font-bold mb-1">Contact Email</label>
           <input type="email" class="w-full border border-neutral-400 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#c6a56a]">
-        </div>
-        <div>
-          <label class="block text-sm font-bold mb-1">Select Membership</label>
-          <select class="w-full border border-neutral-400 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#c6a56a]">
-            <option>Community Pass</option>
-            <option>Drop-In Pack</option>
-            <option>Corporate & Group Plans</option>
-          </select>
         </div>
       </div>
 
@@ -55,7 +47,7 @@
         <textarea class="w-full border border-neutral-400 rounded-xl px-4 py-2 h-28 resize-none focus:outline-none focus:ring-2 focus:ring-[#c6a56a]"></textarea>
       </div>
       <button class="cursor-pointer w-full bg-[#c6a56a] text-[#1c1c1c] py-3 rounded-2xl font-['Bebas_Neue'] text-2xl shadow-md shadow-neutral-700 hover:scale-[1.02] transition-all duration-500 ease-in-out">
-        Submit Booking Request
+        Join
       </button>
     </div>
   </div>

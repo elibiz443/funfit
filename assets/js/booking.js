@@ -1,27 +1,30 @@
-const openModal = document.getElementById('openBooking')
-const closeModal = document.getElementById('closeBooking')
-const modal = document.getElementById('bookingModal')
-const modalBox = document.getElementById('bookingBox')
-
-openModal.addEventListener('click', () => {
-  modal.classList.remove('opacity-0', 'pointer-events-none')
-  modal.classList.add('opacity-100')
-  modalBox.classList.remove('scale-95')
-  modalBox.classList.add('scale-100')
-})
-
-closeModal.addEventListener('click', () => {
-  modal.classList.add('opacity-0', 'pointer-events-none')
-  modal.classList.remove('opacity-100')
-  modalBox.classList.add('scale-95')
-  modalBox.classList.remove('scale-100')
-})
-
-modal.addEventListener('click', (e) => {
-  if(e.target === modal){
-    modal.classList.add('opacity-0','pointer-events-none')
-    modal.classList.remove('opacity-100')
-    modalBox.classList.add('scale-95')
-    modalBox.classList.remove('scale-100')
+function m(o,c,a,b){
+  o=document.getElementById(o)
+  c=document.getElementById(c)
+  a=document.getElementById(a)
+  b=document.getElementById(b)
+  if(!o||!c||!a||!b)return
+  o.onclick=()=>{
+    a.classList.remove('opacity-0','pointer-events-none')
+    a.classList.add('opacity-100')
+    b.classList.remove('scale-95')
+    b.classList.add('scale-100')
   }
-})
+  c.onclick=()=>{
+    a.classList.add('opacity-0','pointer-events-none')
+    a.classList.remove('opacity-100')
+    b.classList.add('scale-95')
+    b.classList.remove('scale-100')
+  }
+  a.onclick=e=>{
+    if(e.target===a){
+      a.classList.add('opacity-0','pointer-events-none')
+      a.classList.remove('opacity-100')
+      b.classList.add('scale-95')
+      b.classList.remove('scale-100')
+    }
+  }
+}
+
+m('openBooking','closeBooking','bookingModal','bookingBox')
+m('openBooking2','closeBooking','bookingModal','bookingBox')

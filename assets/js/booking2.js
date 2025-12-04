@@ -1,0 +1,32 @@
+function m(o,c,m,b){
+  o=document.getElementById(o)
+  c=document.getElementById(c)
+  m=document.getElementById(m)
+  b=document.getElementById(b)
+  o.onclick=()=>{
+    m.classList.remove('opacity-0','pointer-events-none')
+    m.classList.add('opacity-100')
+    b.classList.remove('scale-95')
+    b.classList.add('scale-100')
+  }
+  c.onclick=()=>{
+    m.classList.add('opacity-0','pointer-events-none')
+    m.classList.remove('opacity-100')
+    b.classList.add('scale-95')
+    b.classList.remove('scale-100')
+  }
+  m.onclick=(e)=>{
+    if(e.target===m){
+      m.classList.add('opacity-0','pointer-events-none')
+      m.classList.remove('opacity-100')
+      b.classList.add('scale-95')
+      b.classList.remove('scale-100')
+    }
+  }
+}
+
+m('openTeam','closeTeam','teamModal','teamBox')
+m('openTraining','closeTraining','trainingModal','trainingBox')
+m('openCommunity','closeCommunity','communityModal','communityBox')
+m('openDropin','closeDropin','dropinModal','dropinBox')
+m('openCorporate','closeCorporate','corporateModal','corporateBox')

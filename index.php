@@ -42,6 +42,12 @@
   </main>
 
   <?php include './includes/booking_modal.php'; ?>
+  <?php include './includes/team_modal.php'; ?>
+  <?php include './includes/training_modal.php'; ?>
+  <?php include './includes/community_modal.php'; ?>
+  <?php include './includes/dropin_modal.php'; ?>
+  <?php include './includes/corporate_modal.php'; ?>
+
   <?php include './includes/footer.php'; ?>
   <?php include './includes/roll-to-top-button.php'; ?>
 
@@ -50,5 +56,6 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-view.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/carousel.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/booking2.js"></script>
 </body>
 </html>

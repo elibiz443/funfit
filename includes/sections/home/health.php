@@ -17,7 +17,7 @@
     <p class="text-gray-300 leading-relaxed mb-8">
       Combined with mindful nutrition and structured fitness plans, our approach promotes better mood, discipline, and long-term health — empowering every participant to thrive both mentally and physically.
     </p>
-    <a href="#" class="bg-[#daaa4a] text-[#1c1c1c] font-semibold px-6 py-3 rounded-full shadow-md hover:scale-105 hover:shadow-[#daaa4a]/30 transition-all duration-500 ease-in-out w-fit">
+    <a href="<?php echo ROOT_URL; ?>/programs" class="bg-[#daaa4a] text-[#1c1c1c] font-semibold px-6 py-3 rounded-full shadow-md hover:scale-105 hover:shadow-[#daaa4a]/30 transition-all duration-500 ease-in-out w-fit">
       Learn More
     </a>
   </div>

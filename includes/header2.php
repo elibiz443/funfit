@@ -104,11 +104,11 @@
     </button>
     <ul class="mt-20 space-y-6 text-center text-lg text-white font-medium">
       <li><a href="<?php echo ROOT_URL; ?>" class="block hover:text-yellow-400">Home</a></li>
-      <li><a href="#abouts" class="block hover:text-yellow-400">About Us</a></li>
-      <li><a href="#programs" class="block hover:text-yellow-400">Our Programs</a></li>
-      <li><a href="#gallery" class="block hover:text-yellow-400">Our Gallery</a></li>
-      <li><a href="#book" class="block hover:text-yellow-400">Book Now</a></li>
-      <li><button class="cursor-pointer bg-white text-neutral-600 text-sm px-3 py-2 rounded mt-4 hover:scale-110 transition-all duration-500 ease-in-out">Contact For More</button></li>
+      <li><a href="<?php echo ROOT_URL; ?>/abouts" class="block hover:text-yellow-400">About Us</a></li>
+      <li><a href="<?php echo ROOT_URL; ?>/programs" class="cursor-pointer block hover:text-yellow-400">Our Programs</a></li>
+      <li><a href="<?php echo ROOT_URL; ?>/gallery" class="block hover:text-yellow-400">Our Gallery</a></li>
+      <li><a id="openBooking2" class="cursor-pointer block hover:text-yellow-400">Book Now</a></li>
+      <li><button onclick="location.href='<?php echo ROOT_URL; ?>/contacts'" class="cursor-pointer bg-white text-neutral-600 text-sm px-3 py-2 rounded mt-4 hover:scale-110 transition-all duration-500 ease-in-out">Contact For More</button></li>
     </ul> 
   </div>
 </header>

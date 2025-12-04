@@ -24,10 +24,10 @@
       At <span class="text-yellow-200 font-semibold">Functional Fitness</span>, we move, sweat, and grow as a team — blending performance, strength, and unity into every session.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="#" class="bg-amber-400 text-black font-semibold px-6 py-3 rounded-full shadow-md hover:scale-105 transition-all duration-600 ease-in-out">
+      <a id="openTeam" class="cursor-pointer bg-amber-400 text-black font-semibold px-6 py-3 rounded-full shadow-md hover:scale-105 transition-all duration-600 ease-in-out">
         Join Team Building
       </a>
-      <a href="#" class="border border-yellow-200 text-white font-semibold px-6 py-3 rounded-full hover:bg-amber-400 hover:text-black transition-all duration-600 ease-in-out">
+      <a id="openTraining" class="cursor-pointer border border-yellow-200 text-white font-semibold px-6 py-3 rounded-full hover:bg-amber-400 hover:text-black transition-all duration-600 ease-in-out">
         Join Training Sessions
       </a>
     </div>

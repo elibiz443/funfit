@@ -17,7 +17,7 @@
             <li>• Early booking privileges</li>
           </ul>
         </div>
-        <button class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Join the Community</button>
+        <a id="openCommunity" class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Join the Community</a>
       </div>
 
       <div class="p-8 bg-stone-800/80 rounded-2xl shadow-lg shadow-stone-800 flex flex-col justify-between border-2 border-stone-500">
@@ -30,7 +30,7 @@
             <li>• Great for exploration</li>
           </ul>
         </div>
-        <button class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Reserve a Spot</button>
+        <a id="openDropin" class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Reserve a Spot</a>
       </div>
 
       <div class="p-8 bg-stone-800/80 rounded-2xl shadow-lg shadow-stone-800 flex flex-col justify-between border-2 border-stone-500">
@@ -43,7 +43,7 @@
             <li>• Ongoing wellness support</li>
           </ul>
         </div>
-        <button class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Contact Sales</button>
+        <a id="openCorporate" class="cursor-pointer mt-6 bg-[#daaa4a] text-[#1c1c1c] px-5 py-2 rounded-full hover:scale-105 transition-all duration-500 ease-in-out">Select Plan</a>
       </div>
     </div>
   </div>
