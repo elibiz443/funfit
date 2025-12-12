@@ -33,5 +33,6 @@
   <script src="<?php echo ROOT_URL; ?>/assets/js/scroll-to-top.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/booking.js"></script>
   <script src="<?php echo ROOT_URL; ?>/assets/js/gallery.js"></script>
+  <script src="<?php echo ROOT_URL; ?>/assets/js/video.js"></script>
 </body>
 </html>

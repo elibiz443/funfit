@@ -29,6 +29,7 @@
 
   <main id="home">
     <?php include './includes/sections/home/hero.php'; ?>
+    <?php include './includes/sections/home/upcoming.php'; ?>
     <?php include './includes/sections/home/programs.php'; ?>
     <?php include './includes/sections/home/health.php'; ?>
     <?php include './includes/sections/home/team.php'; ?>

@@ -96,4 +96,36 @@ INSERT INTO gallery (img_link, location, title, detail, created_at, updated_at) 
   'Smart space, smart programming. Showing how short intentional sessions deliver massive conditioning impact.',
   NOW(),
   NOW()
+),
+(
+  '/assets/images/gallery/12.webp',
+  'Karura Sigiria',
+  'Fun Zone BootCamp',
+  'Dynamic outdoor boot camp session filled with team drills, energy, and refreshing forest vibes.',
+  NOW(),
+  NOW()
+),
+(
+  '/assets/images/gallery/13.webp',
+  'Karura Sigiria',
+  'Fun Zone BootCamp',
+  'Strength, agility, and cardio blends brought to life in the scenic trails of Karura.',
+  NOW(),
+  NOW()
+),
+(
+  '/assets/images/gallery/14.webp',
+  'Karura Sigiria',
+  'Fun Zone BootCamp',
+  'Community-driven fitness featuring group circuits, laughter, and uplifting motivation.',
+  NOW(),
+  NOW()
+),
+(
+  '/assets/images/gallery/15.webp',
+  'Karura Sigiria',
+  'Fun Zone BootCamp',
+  'Forest boot camp experience combining nature, movement and the signature Funzone intensity.',
+  NOW(),
+  NOW()
 );
